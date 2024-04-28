@@ -2,8 +2,7 @@
 
 .sidebar {
   grid-area: menu;
-  background-color: white;
-  border: 2px solid orangered;
+  border: 2px solid #f33c3ccd;
   margin: 20px;
   padding: 20px;
   text-align: left;
