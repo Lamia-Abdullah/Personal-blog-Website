@@ -20,7 +20,16 @@
   text-align: center;
   padding-bottom: 20px;
 }
-
+figure {
+  border: 1px #f33c3ccd solid;
+  padding: 4px;
+}
+figcaption {
+  background-color: gray;
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
 ol {
   background: gray;
   font-weight: bold;
