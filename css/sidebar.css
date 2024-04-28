@@ -1,0 +1,70 @@
+/* author sidebar */
+
+.sidebar {
+  grid-area: menu;
+  background-color: white;
+  border: 2px solid orangered;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.8em;
+  justify-self: center;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.author-info img {
+  height: 30rem;
+  width: 35rem;
+}
+.author-info p {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.social-menu {
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+.social-menu li {
+  font-size: 22px;
+  list-style: none;
+}
+.topic {
+  padding-top: 25px;
+  font-size: 28px;
+}
+ul.list-topic {
+  list-style-type: circle;
+  padding: 20px;
+  font-size: 20px;
+}

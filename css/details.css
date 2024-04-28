@@ -1,0 +1,28 @@
+
+/* details-blog */
+
+.details-blog {
+    grid-area: left;
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    line-height: 2.5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+  }
+  .details-blog h1,
+  .details-blog span {
+    background-color: rgba(250, 235, 215, 0.708);
+  
+    text-align: center;
+  }
+  .image {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  ol {
+    background: lightgray;
+    padding-left: 30px;
+  }

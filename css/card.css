@@ -1,0 +1,69 @@
+
+/* card blog */
+
+.blog-containr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+  }
+  .blog-box {
+    grid-area: left;
+    width: 650px;
+    border: 1px solid orangered;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .blog-img {
+    width: 100%;
+    height: auto;
+  }
+  .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .blog-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-text span {
+    color: #f33c3c;
+    font-weight: 0.9rem;
+  }
+  .blog-text .blog-title {
+    font-size: 1.3rem;
+    line-height: 1.9;
+    font-weight: 500;
+    grid-column: 20px;
+    color: black;
+  }
+  .blog-text .blog-title:hover {
+    color: #f33c3c;
+    transition: all ease-in 0.3s;
+  }
+  .blog-text p {
+    color: gray;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+  }
+   .button {
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid orangered;
+  }
