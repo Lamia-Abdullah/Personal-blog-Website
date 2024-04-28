@@ -1,8 +1,6 @@
-
 @import "sidebar.css";
 @import "card.css";
 @import "details.css";
-
 
 * {
   margin: 0px;
@@ -33,14 +31,16 @@
   padding: 40px;
   border-bottom: 1px solid black;
 }
+
 .header {
   grid-area: header;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #f33c3c32;
 }
 
@@ -48,8 +48,29 @@
   font-size: 29px;
   color: black;
   font-weight: 400;
+  text-align: center;
 }
 
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav-menu a {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 20px;
+}
+
+.nav-menu a:hover {
+  background-color: #f33c3ccd;
+  font-weight: 700;
+  cursor: pointer;
+}
 
 .footer {
   grid-area: footer;
@@ -76,8 +97,6 @@
   color: black;
   text-decoration: none;
 }
-
-
 
 @media (max-width: 1100px) {
   .container-hero {
