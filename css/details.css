@@ -17,6 +17,7 @@
   text-align: center;
 }
 .image {
+width: 100%;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -35,3 +36,5 @@ ol {
   font-weight: bold;
   padding-left: 30px;
 }
+
+  
