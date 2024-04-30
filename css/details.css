@@ -2,9 +2,9 @@
 
 .details-blog {
   grid-area: left;
-  display: grid; 
+  display: grid;
   padding-top: 2rem;
-  grid-template-columns: 1fr; 
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   line-height: 2.5em;
   padding-left: 30px;
@@ -22,6 +22,10 @@
   width: 100%;
   text-align: center;
   padding-bottom: 20px;
+}
+.image img {
+  max-width: 100%; 
+  height: auto;
 }
 figure {
   border: 1px #f33c3ccd solid;
